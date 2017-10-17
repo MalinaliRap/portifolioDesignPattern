@@ -1,0 +1,21 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package vo;
+
+/**
+ *
+ * @author a1372920
+ */
+public interface EstadoMario {
+    
+    EstadoMario pegarFlor();
+    
+    EstadoMario pegarCogumelo();
+    
+    EstadoMario pegarPena();
+    
+    EstadoMario levarDano();
+}
